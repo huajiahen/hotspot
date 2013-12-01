@@ -6,7 +6,8 @@
 ##作者
 + 黄嘉恒 [@huajiahen](https://github.com/huajiahen) \(新浪微博 [@__block](http://weibo.com/u/2977681790)\)
 + 勾小川 [@gpxlcj](https://github.com/gpxlcj)
-##特别感谢 
+
+###特别感谢 
 + 林威 \(新浪微博 [@Wiilen_n](http://weibo.com/wiilen)\)
 + 何明涛 \(新浪微博 [@美工大人](http://weibo.com/u/2366762741)\)
 
