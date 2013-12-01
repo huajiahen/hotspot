@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div>
+            <form action = "/api/emergency" method = "POST">
+                <p>id:<input type = "text" name = "id"></p>
+                <p>content:<input type = "text" name = "content"></p>
+                <p>longitude:<input type = "text" name = "longitude"></p>
+                <p>latitude:<input type = "text" name = "latitude"></p>
+                <p><input type = "submit" value = "certen"></p>
+            </form>
+        </div>
+        <div>
+            <form action = "/api/updatelocation" method = "POST">
+                <p>id<input type = "text" name = "id"></p>
+                <p>longitude<input type = "text" name = "longitude"></p>
+                <p>latitude<input type = "text" name = "latitude"></p>
+                <p><input type = "submit" value = "certen">
+            </form>
+        </div>
+        <div>
+            <form action = "/api/event" method = "POST">
+                <p>id:<input type = "text" name = "id"></p>
+                <p>content:<input type = "text" name = "content"></p>
+                <p>longitude:<input type = "text" name = "longitude"></p>
+                <p>latitude:<input type = "text" name = "latitude"></p>
+                <p>starttime:<input type = "text" name = "starttime"></p>
+                <p>endtime:<input type = "text" name = "endtime"></p>
+                <p>address:<input type = "text" name = "address"></p>
+                <p><input type = "submit" value = "certen"></p>
+            </form>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    {% for i in event %}
+                        <h6>{{i.content}}</h6>
+                        <h6>{{i.longitude}}</h6>
+                        <h6>{{i.latitude}}</h6>
+                        <h6>{{i.starttime}}</h6>
+                        <h6>{{i.endtime}}</h6>
+                        <h6>{{i.address}}</h6>
+                    {% endfor %}
+                </td>
+                <td>
+                    {% for i in mergency %}
+                    <p></p>
+                    {% endfor %}
+                </td>
+            </tr>
+        </div>
+    </body>
+</html>

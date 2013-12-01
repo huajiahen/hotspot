@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137E03FD42A147D3B426CC5E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959BA29A55AB4F69B158160C /* libPods.a */; };
+		5E01E82C18386AC0002B7C89 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E01E82B18386AC0002B7C89 /* CFNetwork.framework */; };
+		5E01E82E18386ACD002B7C89 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E01E82D18386ACD002B7C89 /* CoreFoundation.framework */; };
+		5E01E83018386AD7002B7C89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E01E82F18386AD7002B7C89 /* CoreTelephony.framework */; };
+		5E01E83218386AE4002B7C89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E01E83118386AE4002B7C89 /* SystemConfiguration.framework */; };
+		5E01E83418386B66002B7C89 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E01E83318386B66002B7C89 /* PushConfig.plist */; };
+		5E06B7DF1837C110005CDB3B /* ZQHotspot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06B7DE1837C110005CDB3B /* ZQHotspot.m */; };
+		5E06B7E218380040005CDB3B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06B7E118380040005CDB3B /* UIImage+ImageEffects.m */; };
+		5E06B7E5183811A4005CDB3B /* ZQEventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06B7E4183811A4005CDB3B /* ZQEventListViewController.m */; };
+		5E06B7E918385E14005CDB3B /* NSDate+ZQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06B7E818385E14005CDB3B /* NSDate+ZQ.m */; };
+		5E95EB4D18372A9C0010F259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB4C18372A9C0010F259 /* Foundation.framework */; };
+		5E95EB4F18372A9C0010F259 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB4E18372A9C0010F259 /* CoreGraphics.framework */; };
+		5E95EB5118372A9C0010F259 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB5018372A9C0010F259 /* UIKit.framework */; };
+		5E95EB5718372A9C0010F259 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EB5518372A9C0010F259 /* InfoPlist.strings */; };
+		5E95EB5918372A9C0010F259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB5818372A9C0010F259 /* main.m */; };
+		5E95EB5D18372A9C0010F259 /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB5C18372A9C0010F259 /* ZQAppDelegate.m */; };
+		5E95EB6018372A9C0010F259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EB5E18372A9C0010F259 /* Main.storyboard */; };
+		5E95EB6318372A9C0010F259 /* ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB6218372A9C0010F259 /* ZQViewController.m */; };
+		5E95EB6518372A9C0010F259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EB6418372A9C0010F259 /* Images.xcassets */; };
+		5E95EB6C18372A9C0010F259 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB6B18372A9C0010F259 /* XCTest.framework */; };
+		5E95EB6D18372A9C0010F259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB4C18372A9C0010F259 /* Foundation.framework */; };
+		5E95EB6E18372A9C0010F259 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB5018372A9C0010F259 /* UIKit.framework */; };
+		5E95EB7618372A9C0010F259 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E95EB7418372A9C0010F259 /* InfoPlist.strings */; };
+		5E95EB7818372A9C0010F259 /* hotspotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB7718372A9C0010F259 /* hotspotTests.m */; };
+		5E95EB82183744710010F259 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E95EB81183744710010F259 /* MapKit.framework */; };
+		5E95EB85183766CF0010F259 /* ZQEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB84183766CF0010F259 /* ZQEvent.m */; };
+		5E95EB88183766E00010F259 /* ZQEmergency.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB87183766E00010F259 /* ZQEmergency.m */; };
+		5E95EB8B18378F170010F259 /* ZQEventCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB8A18378F170010F259 /* ZQEventCreateViewController.m */; };
+		5E95EB911837AB820010F259 /* ZQEmergencyCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95EB901837AB820010F259 /* ZQEmergencyCreateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E95EB6F18372A9C0010F259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E95EB4118372A9C0010F259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E95EB4818372A9C0010F259;
+			remoteInfo = hotspot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E01E82B18386AC0002B7C89 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5E01E82D18386ACD002B7C89 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5E01E82F18386AD7002B7C89 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5E01E83118386AE4002B7C89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E01E83318386B66002B7C89 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		5E06B7DD1837C110005CDB3B /* ZQHotspot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHotspot.h; sourceTree = "<group>"; };
+		5E06B7DE1837C110005CDB3B /* ZQHotspot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHotspot.m; sourceTree = "<group>"; };
+		5E06B7E018380040005CDB3B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5E06B7E118380040005CDB3B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5E06B7E3183811A4005CDB3B /* ZQEventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQEventListViewController.h; sourceTree = "<group>"; };
+		5E06B7E4183811A4005CDB3B /* ZQEventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQEventListViewController.m; sourceTree = "<group>"; };
+		5E06B7E718385D51005CDB3B /* NSDate+ZQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZQ.h"; sourceTree = "<group>"; };
+		5E06B7E818385E14005CDB3B /* NSDate+ZQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZQ.m"; sourceTree = "<group>"; };
+		5E95EB4918372A9C0010F259 /* hotspot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotspot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E95EB4C18372A9C0010F259 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E95EB4E18372A9C0010F259 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E95EB5018372A9C0010F259 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E95EB5418372A9C0010F259 /* hotspot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hotspot-Info.plist"; sourceTree = "<group>"; };
+		5E95EB5618372A9C0010F259 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E95EB5818372A9C0010F259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E95EB5A18372A9C0010F259 /* hotspot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hotspot-Prefix.pch"; sourceTree = "<group>"; };
+		5E95EB5B18372A9C0010F259 /* ZQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
+		5E95EB5C18372A9C0010F259 /* ZQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
+		5E95EB5F18372A9C0010F259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E95EB6118372A9C0010F259 /* ZQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQViewController.h; sourceTree = "<group>"; };
+		5E95EB6218372A9C0010F259 /* ZQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQViewController.m; sourceTree = "<group>"; };
+		5E95EB6418372A9C0010F259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E95EB6A18372A9C0010F259 /* hotspotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hotspotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E95EB6B18372A9C0010F259 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E95EB7318372A9C0010F259 /* hotspotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hotspotTests-Info.plist"; sourceTree = "<group>"; };
+		5E95EB7518372A9C0010F259 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E95EB7718372A9C0010F259 /* hotspotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hotspotTests.m; sourceTree = "<group>"; };
+		5E95EB81183744710010F259 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5E95EB83183766CF0010F259 /* ZQEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQEvent.h; sourceTree = "<group>"; };
+		5E95EB84183766CF0010F259 /* ZQEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQEvent.m; sourceTree = "<group>"; };
+		5E95EB86183766E00010F259 /* ZQEmergency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQEmergency.h; sourceTree = "<group>"; };
+		5E95EB87183766E00010F259 /* ZQEmergency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQEmergency.m; sourceTree = "<group>"; };
+		5E95EB8918378F170010F259 /* ZQEventCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQEventCreateViewController.h; sourceTree = "<group>"; };
+		5E95EB8A18378F170010F259 /* ZQEventCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQEventCreateViewController.m; sourceTree = "<group>"; };
+		5E95EB8F1837AB820010F259 /* ZQEmergencyCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQEmergencyCreateViewController.h; sourceTree = "<group>"; };
+		5E95EB901837AB820010F259 /* ZQEmergencyCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQEmergencyCreateViewController.m; sourceTree = "<group>"; };
+		959BA29A55AB4F69B158160C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CE4545F6BC41FC8D0E136A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E95EB4618372A9C0010F259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E01E83218386AE4002B7C89 /* SystemConfiguration.framework in Frameworks */,
+				5E01E83018386AD7002B7C89 /* CoreTelephony.framework in Frameworks */,
+				5E01E82E18386ACD002B7C89 /* CoreFoundation.framework in Frameworks */,
+				5E01E82C18386AC0002B7C89 /* CFNetwork.framework in Frameworks */,
+				5E95EB82183744710010F259 /* MapKit.framework in Frameworks */,
+				5E95EB4F18372A9C0010F259 /* CoreGraphics.framework in Frameworks */,
+				5E95EB5118372A9C0010F259 /* UIKit.framework in Frameworks */,
+				5E95EB4D18372A9C0010F259 /* Foundation.framework in Frameworks */,
+				137E03FD42A147D3B426CC5E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E95EB6718372A9C0010F259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E95EB6C18372A9C0010F259 /* XCTest.framework in Frameworks */,
+				5E95EB6E18372A9C0010F259 /* UIKit.framework in Frameworks */,
+				5E95EB6D18372A9C0010F259 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E95EB4018372A9B0010F259 = {
+			isa = PBXGroup;
+			children = (
+				5E95EB5218372A9C0010F259 /* hotspot */,
+				5E95EB7118372A9C0010F259 /* hotspotTests */,
+				5E95EB4B18372A9C0010F259 /* Frameworks */,
+				5E95EB4A18372A9C0010F259 /* Products */,
+				B5CE4545F6BC41FC8D0E136A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		5E95EB4A18372A9C0010F259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E95EB4918372A9C0010F259 /* hotspot.app */,
+				5E95EB6A18372A9C0010F259 /* hotspotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E95EB4B18372A9C0010F259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E01E83118386AE4002B7C89 /* SystemConfiguration.framework */,
+				5E01E82F18386AD7002B7C89 /* CoreTelephony.framework */,
+				5E01E82D18386ACD002B7C89 /* CoreFoundation.framework */,
+				5E01E82B18386AC0002B7C89 /* CFNetwork.framework */,
+				5E95EB81183744710010F259 /* MapKit.framework */,
+				5E95EB4C18372A9C0010F259 /* Foundation.framework */,
+				5E95EB4E18372A9C0010F259 /* CoreGraphics.framework */,
+				5E95EB5018372A9C0010F259 /* UIKit.framework */,
+				5E95EB6B18372A9C0010F259 /* XCTest.framework */,
+				959BA29A55AB4F69B158160C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E95EB5218372A9C0010F259 /* hotspot */ = {
+			isa = PBXGroup;
+			children = (
+				5E95EB5B18372A9C0010F259 /* ZQAppDelegate.h */,
+				5E95EB5C18372A9C0010F259 /* ZQAppDelegate.m */,
+				5E95EB5E18372A9C0010F259 /* Main.storyboard */,
+				5E95EB6118372A9C0010F259 /* ZQViewController.h */,
+				5E95EB6218372A9C0010F259 /* ZQViewController.m */,
+				5E06B7E3183811A4005CDB3B /* ZQEventListViewController.h */,
+				5E06B7E4183811A4005CDB3B /* ZQEventListViewController.m */,
+				5E95EB8918378F170010F259 /* ZQEventCreateViewController.h */,
+				5E95EB8A18378F170010F259 /* ZQEventCreateViewController.m */,
+				5E95EB8F1837AB820010F259 /* ZQEmergencyCreateViewController.h */,
+				5E95EB901837AB820010F259 /* ZQEmergencyCreateViewController.m */,
+				5E95EB83183766CF0010F259 /* ZQEvent.h */,
+				5E95EB84183766CF0010F259 /* ZQEvent.m */,
+				5E95EB86183766E00010F259 /* ZQEmergency.h */,
+				5E95EB87183766E00010F259 /* ZQEmergency.m */,
+				5E06B7DD1837C110005CDB3B /* ZQHotspot.h */,
+				5E06B7DE1837C110005CDB3B /* ZQHotspot.m */,
+				5E06B7E018380040005CDB3B /* UIImage+ImageEffects.h */,
+				5E06B7E118380040005CDB3B /* UIImage+ImageEffects.m */,
+				5E06B7E718385D51005CDB3B /* NSDate+ZQ.h */,
+				5E06B7E818385E14005CDB3B /* NSDate+ZQ.m */,
+				5E95EB6418372A9C0010F259 /* Images.xcassets */,
+				5E95EB5318372A9C0010F259 /* Supporting Files */,
+			);
+			path = hotspot;
+			sourceTree = "<group>";
+		};
+		5E95EB5318372A9C0010F259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E95EB5418372A9C0010F259 /* hotspot-Info.plist */,
+				5E95EB5518372A9C0010F259 /* InfoPlist.strings */,
+				5E95EB5818372A9C0010F259 /* main.m */,
+				5E95EB5A18372A9C0010F259 /* hotspot-Prefix.pch */,
+				5E01E83318386B66002B7C89 /* PushConfig.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E95EB7118372A9C0010F259 /* hotspotTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E95EB7718372A9C0010F259 /* hotspotTests.m */,
+				5E95EB7218372A9C0010F259 /* Supporting Files */,
+			);
+			path = hotspotTests;
+			sourceTree = "<group>";
+		};
+		5E95EB7218372A9C0010F259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E95EB7318372A9C0010F259 /* hotspotTests-Info.plist */,
+				5E95EB7418372A9C0010F259 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E95EB4818372A9C0010F259 /* hotspot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E95EB7B18372A9C0010F259 /* Build configuration list for PBXNativeTarget "hotspot" */;
+			buildPhases = (
+				46A26DB0262B49BB9B295892 /* Check Pods Manifest.lock */,
+				5E95EB4518372A9C0010F259 /* Sources */,
+				5E95EB4618372A9C0010F259 /* Frameworks */,
+				5E95EB4718372A9C0010F259 /* Resources */,
+				904E71A78395421A9767AEFB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hotspot;
+			productName = hotspot;
+			productReference = 5E95EB4918372A9C0010F259 /* hotspot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E95EB6918372A9C0010F259 /* hotspotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E95EB7E18372A9C0010F259 /* Build configuration list for PBXNativeTarget "hotspotTests" */;
+			buildPhases = (
+				5E95EB6618372A9C0010F259 /* Sources */,
+				5E95EB6718372A9C0010F259 /* Frameworks */,
+				5E95EB6818372A9C0010F259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E95EB7018372A9C0010F259 /* PBXTargetDependency */,
+			);
+			name = hotspotTests;
+			productName = hotspotTests;
+			productReference = 5E95EB6A18372A9C0010F259 /* hotspotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E95EB4118372A9C0010F259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZQ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "黄 嘉恒";
+				TargetAttributes = {
+					5E95EB4818372A9C0010F259 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					5E95EB6918372A9C0010F259 = {
+						TestTargetID = 5E95EB4818372A9C0010F259;
+					};
+				};
+			};
+			buildConfigurationList = 5E95EB4418372A9C0010F259 /* Build configuration list for PBXProject "hotspot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E95EB4018372A9B0010F259;
+			productRefGroup = 5E95EB4A18372A9C0010F259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E95EB4818372A9C0010F259 /* hotspot */,
+				5E95EB6918372A9C0010F259 /* hotspotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E95EB4718372A9C0010F259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E01E83418386B66002B7C89 /* PushConfig.plist in Resources */,
+				5E95EB6518372A9C0010F259 /* Images.xcassets in Resources */,
+				5E95EB5718372A9C0010F259 /* InfoPlist.strings in Resources */,
+				5E95EB6018372A9C0010F259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E95EB6818372A9C0010F259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E95EB7618372A9C0010F259 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A26DB0262B49BB9B295892 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		904E71A78395421A9767AEFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E95EB4518372A9C0010F259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E95EB8B18378F170010F259 /* ZQEventCreateViewController.m in Sources */,
+				5E95EB88183766E00010F259 /* ZQEmergency.m in Sources */,
+				5E06B7DF1837C110005CDB3B /* ZQHotspot.m in Sources */,
+				5E95EB5918372A9C0010F259 /* main.m in Sources */,
+				5E06B7E918385E14005CDB3B /* NSDate+ZQ.m in Sources */,
+				5E95EB85183766CF0010F259 /* ZQEvent.m in Sources */,
+				5E06B7E218380040005CDB3B /* UIImage+ImageEffects.m in Sources */,
+				5E95EB911837AB820010F259 /* ZQEmergencyCreateViewController.m in Sources */,
+				5E95EB5D18372A9C0010F259 /* ZQAppDelegate.m in Sources */,
+				5E06B7E5183811A4005CDB3B /* ZQEventListViewController.m in Sources */,
+				5E95EB6318372A9C0010F259 /* ZQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E95EB6618372A9C0010F259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E95EB7818372A9C0010F259 /* hotspotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E95EB7018372A9C0010F259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E95EB4818372A9C0010F259 /* hotspot */;
+			targetProxy = 5E95EB6F18372A9C0010F259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E95EB5518372A9C0010F259 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E95EB5618372A9C0010F259 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E95EB5E18372A9C0010F259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E95EB5F18372A9C0010F259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E95EB7418372A9C0010F259 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E95EB7518372A9C0010F259 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E95EB7918372A9C0010F259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E95EB7A18372A9C0010F259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E95EB7C18372A9C0010F259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CE4545F6BC41FC8D0E136A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hanyu Liu (H9V58YMEFL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotspot/hotspot-Prefix.pch";
+				INFOPLIST_FILE = "hotspot/hotspot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07E19602-8755-4213-B34F-82F7AF6CCB83";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E95EB7D18372A9C0010F259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CE4545F6BC41FC8D0E136A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotspot/hotspot-Prefix.pch";
+				INFOPLIST_FILE = "hotspot/hotspot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07E19602-8755-4213-B34F-82F7AF6CCB83";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E95EB7F18372A9C0010F259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hotspot.app/hotspot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotspot/hotspot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hotspotTests/hotspotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E95EB8018372A9C0010F259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hotspot.app/hotspot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hotspot/hotspot-Prefix.pch";
+				INFOPLIST_FILE = "hotspotTests/hotspotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E95EB4418372A9C0010F259 /* Build configuration list for PBXProject "hotspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E95EB7918372A9C0010F259 /* Debug */,
+				5E95EB7A18372A9C0010F259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E95EB7B18372A9C0010F259 /* Build configuration list for PBXNativeTarget "hotspot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E95EB7C18372A9C0010F259 /* Debug */,
+				5E95EB7D18372A9C0010F259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E95EB7E18372A9C0010F259 /* Build configuration list for PBXNativeTarget "hotspotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E95EB7F18372A9C0010F259 /* Debug */,
+				5E95EB8018372A9C0010F259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E95EB4118372A9C0010F259 /* Project object */;
+}

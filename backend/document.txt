@@ -1,0 +1,42 @@
+用户发起活动:
+        内容："content"
+        开始时间："starttime"
+        结束时间："endtime"
+        经度："longitude"
+        纬度："latitude"
+        用户："id"
+用户发布事件：
+        内容："content"
+        经度："longitude"
+        纬度："latitude"
+        用户id:"id"
+
+用户请求周围活动事件：
+        经度："longitude"
+        纬度："latitude"
+        用户id："id"
+用户表示参与事件:
+        用户id:
+
+Json(Data,ensure_ascii = False)
+
+Data = {
+        "activity" : near_activity
+        "event" : near_event
+        }
+near_event,near_activity是array
+
+emergency{
+    content char
+    longitude float
+    latitude float
+    username char
+}
+event{
+    content char
+    starttime datetime
+    endtime datetime
+    longitude float
+    latitude float
+    hit integer
+}
